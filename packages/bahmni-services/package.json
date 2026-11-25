@@ -21,7 +21,7 @@
     "directory": "bahmni-apps-frontend/packages/bahmni-services"
   },
   "scripts": {
-    "build": "node init && vite build",
+    "build": "vite build",
     "prepublishOnly": "yarn run build"
   },
   "dependencies": {
